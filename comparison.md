@@ -1,9 +1,10 @@
 
-| Tool | Benefit |Drawback
-|--|--|--|
-|Dependabot  | Built into Github, configurable alerts, sends pull requests to update dependencies.|Only for Use On Github. May want a more managed solution with vulnerability scanning, like Snyk. However, Github itself provides some extra security features outside of this tool as part of the site.
-Snyk|Is a full security and dependency management platform in one. Has continuous scanning. Snyk has security marketed for working with containers. |Costs Money at enterprise level. Might be paying for unnecessary features.|
-| AutoFAC | May work well for Windows application development, as it looks specialized in that area. |Is only for .NET development, and Windows applications.
-|FOSSA|Emphasis on Open Source Software license tracking, as well as dependency tracking and vulnerability scanning. | May have features not needed for use case. Also a paid solution at enterprise level.
-|Doppins| Free for open source projects, looks relativity simple. | Only for JavaScript and Python, will not work in many use cases.
-|Gemnasium| Seems similar in scope to Dependabot, open source and free. | Only for use on GitLab.
+
+| Tool | Benefit |Drawback | Conclusion
+|--|--|--|--|
+|Dependabot  | Built into Github, configurable alerts, sends pull requests to update dependencies.|Only for Use On Github. May want a more managed solution with vulnerability scanning, like Snyk. However, Github itself provides some extra security features outside of this tool as part of the site. | Probably the best option, built into Github and easy to use. Can be configured to scan dockerfiles as well as Snyk can. The user needs more understanding of the tool. Some features are part of Github, and not all integrated together.
+Snyk|Is a full security and dependency management platform in one. Has continuous scanning. Snyk has security marketed for working with containers. |Costs Money at enterprise level. Might be paying for unnecessary features.| Has a good UI. Everything is all on one screen, gives a good overview of the project all at once.  I found it more intuitive than Depandabot. Has code scanning built in, but that could be done with another application or done via Github. I'd say this is my first choice if it didn't cost money.
+| AutoFAC | May work well for Windows application development, as it looks specialized in that area. |Is only for .NET development, and Windows applications. | Might be worth it for Windows app development. Not fleshed out unlike Depandabot or Snyk.
+|FOSSA|Emphasis on Open Source Software license tracking, as well as dependency tracking and vulnerability scanning. | May have features not needed for use case. Also a paid solution at enterprise level. | Would not use unless for a specific case. It has really good license tracking. I would not use it unless you had several open source licenses you couldn't keep track of for some reason.
+|Doppins| Free for open source projects, looks relativity simple. | Only for JavaScript and Python, will not work in many use cases. | The site didn't work for me. I wouldn't use this.
+|Gemnasium| Seems similar in scope to Dependabot, open source and free. | Only for use on GitLab. | Seems like a Dependabot equivalent if your organization was using GitLab instead of GitHub.
