@@ -1,3 +1,4 @@
+
 Below are a list of terms used in GitHub and their definitions.
 
 |Term  |Definition  |
@@ -19,13 +20,13 @@ Below are a list of terms used in GitHub and their definitions.
 Source for GitHub table:  https://docs.github.com/en/get-started/quickstart/github-glossary
 
 Below is a list of terms used for Red Hat OpenShift
-|Term | Definition|
-|--|--|
-|Cluster | A Cluster is a group of nodes or machines running together.|
-|Container | A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.|
-|Docker| Docker is a container management tool.|
-|Image | Container images are a binary containing all the requirements for running a single container.|
-|Kubernetes | Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.|
-|Node | A node is an individual machine within a cluster.|
-|OpenShift| Containerization software by Red Hat. It is built on top of Kubernetes, with added features.|
-|Pod | A pod is one or more containers deployed together on one host.|
+|Term | Definition| Source|
+|--|--|--|
+|Cluster | A Cluster is a group of nodes or machines running together.| https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster
+|Container | A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.|https://www.docker.com/resources/what-container/
+|Docker| Docker is a container management tool.| https://docs.docker.com/get-started/overview/
+|Image | Container images are a binary containing all the requirements for running a single container.| https://docs.openshift.com/container-platform/4.10/openshift_images/index.html
+|Kubernetes | Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.| https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+|Node | A node is an individual machine within a cluster.| https://docs.openshift.com/container-platform/4.10/nodes/index.html
+|OpenShift| Containerization software by Red Hat. It is built on top of Kubernetes, with added features.| https://www.redhat.com/en/technologies/cloud-computing/openshift
+|Pod | A pod is one or more containers deployed together on one host.| https://docs.openshift.com/container-platform/4.10/nodes/pods/nodes-pods-using.html
